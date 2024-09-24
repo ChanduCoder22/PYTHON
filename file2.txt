@@ -1,2 +1,12 @@
 
 This program is about pushing a file into git repository.
+We Follow Some Steps:
+ Step1: We Create a repository in Git with Readme file in it. And We copy the link using code button.
+ Step2: Open Git Bash and type command git clone with copied link.
+ Step3: now we change to repository directory
+ Step4: we create files using touch or vi.
+ Syntax for touch filename and vi filename.txt
+ Step5: we use git add . command to add files into repository
+ Step6: next we commit the changes using git commit -m "comment"
+ Step7: We push the file into the repository using git push -u origin main
+
